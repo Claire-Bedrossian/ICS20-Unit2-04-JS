@@ -4,7 +4,7 @@
 // Created on: Oct 2022
 // This file contains the JS functions for index.html
 
-'use strict'
+"use strict"
 /**
  * This function calculates the area and perimeter of a triangle with user input
  */
@@ -17,11 +17,11 @@ function myButtonClicked() {
 
   //process
 
-  const area = ( base * height )
+  const area = base * height
   const perimeter = sideA + sideC + base
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
-  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm'
+  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
+  document.getElementById("perimeter").innerHTML =
+    "Perimeter is: " + perimeter + " cm"
 }
-  
