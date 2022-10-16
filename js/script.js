@@ -10,14 +10,14 @@
  */
 function myButtonClicked() {
   // input
-  const base = parseInt(document.getElementById("base-number").value
-  const length = parseInt(document.getElementById("length-number").value)
+  const base = parseInt(document.getElementById("base-number").value)
+  const height = parseInt(document.getElementById("height-number").value)
   const sideA = parseInt(document.getElementById("side-a-number").value)
   const sideC = parseInt(document.getElementById("side-c-number").value)
 
   //process
 
-  const area = ( base * height ) /2
+  const area = ( base * height )
   const perimeter = sideA + sideC + base
 
   // output
